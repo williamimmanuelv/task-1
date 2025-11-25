@@ -1,0 +1,88 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 75px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 28px;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 1000;
+}
+
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: #333;
+    font-size: 10px sans-serif;
+    font-weight: 800;
+    height: inherit;
+}
+
+
+.nav-iconH {
+    padding-left: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    color: blue;
+}
+
+.nav-icon {
+    padding-left: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+}
+
+.search-box {
+    position: relative;
+    padding-left: 10px;
+}
+
+.search-box input {
+    width: 260px;
+    height: 20px;
+    padding: 0 36px 0 12px;
+    background-color: #f2f2f2;
+    border:none;
+    
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.signin-btn {
+    background: #0073ff;
+    color: #fff;
+    border: none;
+    padding: 8px 28px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signin-btn:hover {
+    background: #005ed3;
+}
+.nav-1-img{
+    width: 100px;
+}
